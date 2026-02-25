@@ -1,0 +1,21 @@
+button {
+    border: none;
+    border-radius: 8px;
+    padding: 8px 15px;
+    margin: 20px;
+    transition: filter 0.3s;
+}
+button:hover,
+button:focus {
+    filter:brightness(50%);
+}
+
+.red {
+    background: lightcoral;
+}
+.green {
+    background: lightgreen;
+}
+.blue {
+    background: lightblue;
+}

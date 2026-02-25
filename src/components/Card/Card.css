@@ -1,0 +1,43 @@
+.card {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border: 5px solid lavender;
+    transform-style: preserve-3d;
+    border-radius: 10px;
+    box-shadow: rgb(112, 112, 175) 0 0 6px 2px;
+    transition: 0.5s transform ease-in-out;
+    
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+}
+
+.card::after {
+    content: "";
+    display: block;
+    width: 240px;
+    height: 240px;
+    background-image: url(../img/card-background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    top:0;
+    left:0;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.card-show {
+    transform: rotateY(180deg);
+}
+
+.card-finish img {
+    filter: grayscale(100%);
+}

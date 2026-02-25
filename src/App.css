@@ -1,0 +1,17 @@
+
+.container {
+  height: 100%;
+  min-height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+header,
+footer {
+  background: lavender;
+}
+
+
+
+
