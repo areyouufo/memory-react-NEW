@@ -1,0 +1,19 @@
+header {
+    background-color: #c4ffdf;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.main-menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.link--active {
+    color: rgb(0, 58, 0);
+    font-weight: bold;
+    font-style: italic;
+}
