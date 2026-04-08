@@ -41,3 +41,7 @@
 .card-finish img {
     filter: grayscale(100%);
 }
+
+.card-finish {
+  transform: rotateY(180deg);
+}
